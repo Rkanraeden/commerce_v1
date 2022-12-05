@@ -1,19 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application is a prototype for e-commerce.
 
-Things you may want to cover:
+Technical specifications
 
-* Ruby version
+* Ruby version: 3.1.2
 
-* System dependencies
+* Rails version: 7.0.4
 
-* Configuration
+* Database: postresql 14
 
-* Database creation
-
-* Database initialization
+* Database
 
 * How to run the test suite
 
