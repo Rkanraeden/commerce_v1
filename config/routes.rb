@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
   devise_for :admins
   get 'home/index'
-  resources :products
-  resources :categories
   root to: "home#index"
+  authenticate :admin do
+    resources :products
+    resources :categories
+  end
 end
